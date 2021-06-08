@@ -13,7 +13,18 @@
 ## git repository 실습
 1. main repository fork 하고 변경 후 pull request 날리기
 
+```
+$ git remote add upstream https://github.com/said1573/Red_Study_Group.git
+$ git remote -v
+$ git fetch upstream
+$ git checkout main
+$ git merge upstream/main
+$ git push origin main
+```
+
 ## git 그 외 기능
 1. commit 합치기
 2. rebase 등 .. 이해하기
+
+
 
